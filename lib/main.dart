@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Audio Frequency',
       theme: ThemeData(),
-      home: LoginScreen(),
+      home: const LoginScreen(),
     );
   }
 }
