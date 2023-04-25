@@ -18,19 +18,75 @@ class _HomeScreenState extends State<HomeScreen> {
         width: 220,
         height: double.infinity,
         color: const Color(0xFF061E33),
-        child: Column(
-          children: [
-            const LogoWidget(),
-            ListTile(
-              leading: SvgPicture.asset(
-                'assets/svg/nav_icon_play.svg',
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              const LogoWidget(),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '首页',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
               ),
-              title: const Text(
-                '首页',
-                style: TextStyle(color: Color(0xFFC9C9C9)),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '播放策略',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
               ),
-            )
-          ],
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '设备管理',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
+              ),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '首页',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
+              ),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '播放策略',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
+              ),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '设备管理',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
+              ),
+              ListTile(
+                leading: SvgPicture.asset(
+                  'assets/svg/nav_icon_play.svg',
+                ),
+                title: const Text(
+                  '首页',
+                  style: TextStyle(color: Color(0xFFC9C9C9)),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
